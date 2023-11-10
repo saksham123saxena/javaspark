@@ -14,8 +14,9 @@ public class RddAndPairRdd extends SparkContext {
         Logger.getLogger("org").setLevel(Level.OFF);
         Logger.getLogger("akka").setLevel(Level.OFF);
         System.out.println("what is the difference in rdd and pair rdd in spark-java api");
+        // spark context 
         JavaSparkContext sc=getSparkContext();
-
+   
         List<Integer> arr=new ArrayList<>();
         arr.add(1);
         arr.add(12);
